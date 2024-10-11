@@ -1,16 +1,8 @@
 <?php
-$notes=[20,10,15,12,9,3];
+$notes = [20,10,15,12,9,3];
+for ($i=0; $i < count($notes); $i++) { 
+    $somme=$somme+$notes[$i];
+}
+$somme=$somme/count($notes);
+echo $somme;
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKLM</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <p> <?=$a,$age,$b?></p>
-</body>
-</html>
