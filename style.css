@@ -1,8 +1,21 @@
 body{
     border : black 1px solid;
-    padding : 10px;
-    font-family : Arial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: red;
 }
-p{
-    border:1px black solid;
+.carte{
+border: white 5px solid;    
+padding-left: 70px;
+padding-right: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#titre{
+    color: white;
 }
